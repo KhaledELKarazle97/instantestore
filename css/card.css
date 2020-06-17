@@ -1,0 +1,75 @@
+@import './common.css';
+.cardStyle{
+    background-color:#FBF0CD;
+    border-radius: 10px;
+    margin-top:10px;
+    border:solid black 1px;
+}
+.cardStyle .fa-qrcode{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left:20px
+}
+
+#mcard{
+    width:90%;
+}
+.cardNum{
+    text-align: center;
+    font-size: 25px;
+}
+.cardDet{
+    padding:15px;
+}
+.holderDetails label{
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+}
+.field{
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid darkgray 1px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    position: relative;
+    right: 55px;
+    padding-left: 30px;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .icon {
+    padding: 10px;
+    top:7px;
+    color: black;
+    padding-right:30px;
+    left:-4px;
+    position: relative;
+    text-align: center;
+  }
+
+  .labelsave {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+    color:black !important;
+  }
+  .inputsave {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    margin-right:8px;
+    top: -1px;
+    *overflow: hidden;
+  }

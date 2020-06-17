@@ -1,0 +1,70 @@
+.ad{
+    margin:20px;
+}
+
+.dress{
+    width:100%;
+    margin-right:10px;
+}
+
+.fa{
+    display: inline !important;
+    margin-right:5px;
+}
+
+.price{
+    margin-left:20px;
+}
+
+.details{
+    margin-left:-20px;
+}
+.options{
+    background-color: lightgray;
+    padding:10px;
+}
+.options small{
+    color:gray;
+}
+.options .fb{
+    width:100%;
+    background-color: blue;
+    color:white;
+    margin-top:10px;
+}
+
+.options .fb:hover{
+    background-color: blue;
+    color:white;
+}
+
+.field{
+    width:300px;
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid darkgray 1px;
+    padding: 3px 10px;
+}
+
+.modal-content{
+    padding:20px;
+}
+#email,#pwrd{
+    margin-bottom:30px !important;
+}
+
+.fblogin{
+    width:100%;
+    background-color: #3b5998 !important;
+    color:white !important;
+}
+.modal-content p{
+    text-align: center;
+}
+.modal-content a{
+    color: #3b5998;
+}
