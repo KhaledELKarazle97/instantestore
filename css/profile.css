@@ -26,23 +26,22 @@
 .options small{
     color:gray;
 }
-.options .fb{
+.options .buy{
     width:100%;
-    background-color: blue;
+    background-color: rgb(41, 172, 159);
     color:white;
     margin-top:10px;
 }
 
-.options .fb:hover{
-    background-color: blue;
+.options .buy:hover{
+    background-color: rgb(41, 172, 159);
     color:white;
 }
-
-.fa-map-marker{
-    position: relative;
-    top:-30px;
+.change{
+    font-size:8px !important;
+    position: relative !important;
+    left:40%;
 }
-
 .field{
     width:300px;
     background-color: transparent;
@@ -54,6 +53,17 @@
     border-bottom: solid darkgray 1px;
     padding: 3px 10px;
 }
+.fa-shopping-cart{
+    float: right;
+    padding-top:3px;
+    padding-right:5px;
+    margin-left:-15px;
+}
+
+.fa-map-marker{
+    position: relative;
+    top:-30px;
+}
 
 .modal-content{
     padding:20px;
@@ -62,7 +72,7 @@
     margin-bottom:30px !important;
 }
 
-.fblogin{
+.buylogin{
     width:100%;
     background-color: #3b5998 !important;
     color:white !important;

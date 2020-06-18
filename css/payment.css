@@ -15,9 +15,10 @@
 #invoice{
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
+    margin-bottom:20px;
 }
 #invoice .status{
-    color:green;
+    color:rgb(45, 154, 143);
     font-weight: bold;
 }
 #invoice hr{
@@ -29,9 +30,7 @@
     margin-bottom:10px;
 }
 #invoice p{
-    position: relative;
-    right:30px;
-    top:10px;
+    font-weight: bold;
     font-size: 12px !important;
 }
 #invoice .size{
@@ -39,4 +38,14 @@
     padding:3px;
     color: gray;
     font-weight: bold;
+}
+
+b{
+    font-size:12px !important;
+    
+}
+
+.itemDetails{
+    left:-12px;
+    top:10px;
 }
